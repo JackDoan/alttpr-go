@@ -33,6 +33,17 @@ Requires Go 1.26+. The base-patch JSON is embedded at compile time
 (`internal/patch/all_patches_embed/edc01f3db798ae4dfe21101311598d44.json`),
 so no runtime dependencies.
 
+The PHP reference at `vendor/php-randomizer` is a git submodule. The Go
+binary builds and runs without it — it's only needed to regenerate the
+embedded patch or the parity-test fixtures (see below). If you want it,
+clone with `--recurse-submodules`:
+
+```sh
+git clone --recurse-submodules https://github.com/JackDoan/alttpr-go.git
+# or, after a plain clone:
+git submodule update --init
+```
+
 ## Usage
 
 ```sh
