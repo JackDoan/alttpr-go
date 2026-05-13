@@ -1,0 +1,23 @@
+# Build artifacts
+/alttpr
+/alttpr-brick
+/dist/
+
+# Runtime outputs
+/out/
+/out_*/
+*.sfc
+
+# Per-developer validation artifacts (Mesen dumps, screenshots, etc.)
+/validation/
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Go build caches
+*.test
+*.out
+coverage.*

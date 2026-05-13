@@ -1,0 +1,3 @@
+[submodule "vendor/php-randomizer"]
+	path = vendor/php-randomizer
+	url = https://github.com/sporchia/alttp_vt_randomizer.git
