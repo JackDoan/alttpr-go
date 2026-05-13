@@ -1,6 +1,20 @@
 # alttpr-go
 
-A Go CLI port of the [ALttP VT Randomizer](https://github.com/sporchia/alttp_vt_randomizer) (Laravel/PHP). Single static binary, no PHP runtime, no database, no web server.
+A Go CLI port of the [ALttP VT Randomizer](https://github.com/sporchia/alttp_vt_randomizer) (Laravel/PHP).
+
+## Acknowledgements
+
+Thank you to sporchia, Dessyreqt, Christos, Smallhacker, and KatDevsGames, and the other original contributors for the
+hard work they put into the original project!
+
+I wanted to be able to generate new runs on my little legitimate-game-backup-playing device, without needing to mess
+with copying ROMs around from a real computer. I found the source for alttpr, and said "oh god, there's no way this will run on my little gameboy-shaped widget". I have a Claude subscription via my employer, so I gave a copy of the original repo to Claude Code, with the prompt "please port this to golang! I don't need any of the database bits". A few hours later, it spat this out. Not everything is implemented (notably, enemizer is missing), but it has all the features I like to play with.
+
+Also included is a little GUI app for making new ROMs directly on a Trimiui Brick. See BRICK.md for details.
+
+All the content below was written by the disobedient little robot Claude, which is why it sounds like slop.
+
+I've read literally none of this code, so, naturally, use it at your own risk.
 
 ## Status
 
